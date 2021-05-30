@@ -25,6 +25,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: #ccc;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -32,31 +33,46 @@
     </style>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="card">
-        <div class="image_container">
-          <img
-            src="./images/image-header-mobile.jpg"
-            alt="people happily working and coding"
+    <div class="card card-color">
+      <div class="image_container card-item1">
+        <picture>
+          <source
+            media="(min-width: 310px)"
+            srcset="./images/image-header-mobile.jpg"
           />
-        </div>
-        <div class="text_container">
-          <h1 class="heading-text">
-            Get insights that help your business grow.
-          </h1>
-          <p class="support-text">
-            Discover the benefits of data analytics and make better decisions
-            regarding revenue, customer experience, and overall efficiency. 10k+
-            companies 314 templates 12m+ queries
-          </p>
-        </div>
-        <div class="list_container">
-          <ul class="list-item_wrap">
-            <li class="list-item">10K+ Companies</li>
-            <li class="list-item">314 Templates</li>
-            <li class="list-item">12M+ Queries</li>
-          </ul>
-        </div>
+          <source
+            media="(min-width: 1024px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="three people coding on laptops at a table"
+          />
+        </picture>
+      </div>
+      <div class="text_container card-item2">
+        <h1 class="heading-text">
+          Get <span class="highlight">insights</span> that help your business
+          grow.
+        </h1>
+        <p class="support-text">
+          Discover the benefits of data<br />
+          analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+      </div>
+      <div class="list_container card-item3">
+        <ul class="list-item_wrap">
+          <li class="list-item">
+            <span class="bold_values">10k+</span> Companies
+          </li>
+          <li class="list-item">
+            <span class="bold_values">314 </span>Templates
+          </li>
+          <li class="list-item">
+            <span class="bold_values">12M+</span> Queries
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -64,7 +80,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Mathew Donley</a>.
     </div>
   </body>
 </html>
