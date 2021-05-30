@@ -134,7 +134,7 @@ li {
     max-width: 770px;
     max-height: 309px;
     text-align: left;
-    display: hidden;
+    overflow: hidden;
   }
 
   .image_container img {
