@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MatCre/FrontEnd-Master-Stats-Preview-card-Component)
-- Live Site URL: [Add live site URL here](https://matcre.github.io/FrontEnd-Master-Stats-Preview-card-Component/)
+- Solution URL: [My Soltion](https://github.com/MatCre/FrontEnd-Master-Stats-Preview-card-Component)
+- Live Site URL: [Live Sit](https://matcre.github.io/FrontEnd-Master-Stats-Preview-card-Component/)
 
 ## My process
 
