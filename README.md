@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My Soltion](https://github.com/MatCre/FrontEnd-Master-Stats-Preview-card-Component)
-- Live Site URL: [Live Sit](https://matcre.github.io/FrontEnd-Master-Stats-Preview-card-Component/)
+- Live Site URL: [Live Site](https://matcre.github.io/FrontEnd-Master-Stats-Preview-card-Component/)
 
 ## My process
 
